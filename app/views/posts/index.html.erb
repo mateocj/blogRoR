@@ -27,3 +27,17 @@
 <br>
 
 <%= link_to 'New Post', new_post_path %>
+
+<p> The current time is: <%= Time.now %></p>
+
+<% note = 95 %>
+<% if note > 60 %>
+  Aprobado!
+<% end %>
+
+<% 4.times do |index| %>
+  <p><%= index %>Perro</p>
+<% end %>
+
+
+
